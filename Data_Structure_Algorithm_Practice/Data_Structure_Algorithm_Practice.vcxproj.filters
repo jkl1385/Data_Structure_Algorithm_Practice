@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cardinal_36.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="p75_Q6.cpp">
+    <ClCompile Include="physical.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
