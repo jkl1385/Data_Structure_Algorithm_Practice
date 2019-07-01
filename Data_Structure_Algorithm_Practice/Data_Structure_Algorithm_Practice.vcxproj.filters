@@ -39,5 +39,11 @@
     <ClCompile Include="binarySearch2.cpp">
       <Filter>소스 파일\03_Search</Filter>
     </ClCompile>
+    <ClCompile Include="kuku.cpp">
+      <Filter>소스 파일\03_Search</Filter>
+    </ClCompile>
+    <ClCompile Include="structBinarySearch.cpp">
+      <Filter>소스 파일\03_Search</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

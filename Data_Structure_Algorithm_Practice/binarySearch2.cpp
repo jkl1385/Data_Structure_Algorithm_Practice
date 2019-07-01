@@ -3,7 +3,7 @@
 using namespace std;
 
 int int_cmp(const int* a, const int* b) {
-	return *a < *b ? -1 : *a > * b ? 1 : 0;
+	return *a < *b ? -1 : *a > *b ? 1 : 0;
 }
 
 int main() {
@@ -27,6 +27,10 @@ int main() {
 	cout << "검색값: ";
 	cin >> ky;
 	p = (int*)bsearch(&ky, x, nx, sizeof(int), (int(*)(const void*, const void*)) int_cmp);
+	p = (int*)bsearch(&ky, x, nx, sizeof(int),
+						[](const void* a, const void* b) {
+							return *(int*)a < *(int*)b ? -1 : *(int*)a > * (int*)b ? 1 : 0;
+						});
 	if (p == NULL) cout << "검색에 실패했습니다.\n";
 	else cout << ky << "(은)는 x[" << (int)(p - x) << "]에 있습니다.\n";
 
