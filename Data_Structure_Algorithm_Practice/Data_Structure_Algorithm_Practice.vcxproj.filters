@@ -33,5 +33,11 @@
     <ClCompile Include="linearSearch.cpp">
       <Filter>소스 파일\03_Search</Filter>
     </ClCompile>
+    <ClCompile Include="binarySearch1.cpp">
+      <Filter>소스 파일\03_Search</Filter>
+    </ClCompile>
+    <ClCompile Include="binarySearch2.cpp">
+      <Filter>소스 파일\03_Search</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
