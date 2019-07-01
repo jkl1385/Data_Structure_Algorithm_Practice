@@ -19,6 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="cardinal_36.cpp" />
+    <ClCompile Include="p75_Q6.cpp" />
     <ClCompile Include="physical.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
