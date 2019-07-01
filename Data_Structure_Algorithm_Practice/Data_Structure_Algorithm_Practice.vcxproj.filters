@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\02_BasicDataStructure">
       <UniqueIdentifier>{216af197-6fbd-4053-908d-67dc9a494df0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\03_Search">
+      <UniqueIdentifier>{f3e0663f-4cbe-46fd-a66f-91f9f55aa662}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cardinal_36.cpp">
@@ -26,6 +29,9 @@
     </ClCompile>
     <ClCompile Include="physical.cpp">
       <Filter>소스 파일\02_BasicDataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="linearSearch.cpp">
+      <Filter>소스 파일\03_Search</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
