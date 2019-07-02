@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\03_Search">
       <UniqueIdentifier>{f3e0663f-4cbe-46fd-a66f-91f9f55aa662}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\04_Stack&amp;Queue">
+      <UniqueIdentifier>{391f636a-bcbb-4668-bfc3-6c206425a381}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cardinal_36.cpp">
@@ -44,6 +47,9 @@
     </ClCompile>
     <ClCompile Include="structBinarySearch.cpp">
       <Filter>소스 파일\03_Search</Filter>
+    </ClCompile>
+    <ClCompile Include="IntStack.cpp">
+      <Filter>소스 파일\04_Stack&amp;Queue</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
