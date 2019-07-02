@@ -51,5 +51,8 @@
     <ClCompile Include="IntStack.cpp">
       <Filter>소스 파일\04_Stack&amp;Queue</Filter>
     </ClCompile>
+    <ClCompile Include="IntQueue.cpp">
+      <Filter>소스 파일\04_Stack&amp;Queue</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

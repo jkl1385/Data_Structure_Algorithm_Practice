@@ -121,8 +121,7 @@ int main() {
 		case 4:
 			cout << "데이터 : ";
 			cin >> x;
-			idx = s.search(x);
-			if (idx == -1) cout << "\a오류 : 검색에 실패하였습니다.\n";
+			if ((idx = s.search(x)) == -1) cout << "\a오류 : 검색에 실패하였습니다.\n";
 			else cout << "데이터 " << x << "(은)는 " << idx << "번째에 있습니다.\n";
 			break;
 
