@@ -60,5 +60,8 @@
     <ClCompile Include="lastRingBuffer.cpp">
       <Filter>소스 파일\04_Stack&amp;Queue</Filter>
     </ClCompile>
+    <ClCompile Include="factorial.cpp">
+      <Filter>소스 파일\05_Recursion</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
