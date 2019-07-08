@@ -60,10 +60,13 @@
     <ClCompile Include="lastRingBuffer.cpp">
       <Filter>소스 파일\04_Stack&amp;Queue</Filter>
     </ClCompile>
-    <ClCompile Include="factorial.cpp">
+    <ClCompile Include="euclid.cpp">
       <Filter>소스 파일\05_Recursion</Filter>
     </ClCompile>
-    <ClCompile Include="euclid.cpp">
+    <ClCompile Include="recur.cpp">
+      <Filter>소스 파일\05_Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="hanoi.cpp">
       <Filter>소스 파일\05_Recursion</Filter>
     </ClCompile>
   </ItemGroup>
