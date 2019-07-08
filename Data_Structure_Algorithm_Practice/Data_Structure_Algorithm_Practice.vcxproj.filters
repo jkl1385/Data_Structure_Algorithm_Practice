@@ -63,5 +63,8 @@
     <ClCompile Include="factorial.cpp">
       <Filter>소스 파일\05_Recursion</Filter>
     </ClCompile>
+    <ClCompile Include="euclid.cpp">
+      <Filter>소스 파일\05_Recursion</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
